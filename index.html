@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="uz" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Akobir Abdulhakimov</title>
+
+  <link rel="icon" type="image/png" href="images/profile-logo.png">
+
+  <meta name="description" content="Akobir Abdulhakimov — dasturchi / developer portfolio">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;900&family=Manrope:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+
+
+</head>
+
+<body>
+  <div class="bg" aria-hidden="true"><i></i><i></i><i></i></div>
+  <div class="glow" aria-hidden="true"></div>
+  <div class="progress" id="progress"></div>
+  <header class="nav">
+    <a href="#top" class="logo">AA<span>.</span></a>
+    <nav id="menu">
+      <a href="#about" data-i18n="nav_about"></a><a href="#skills" data-i18n="nav_skills"></a>
+      <a href="#projects" data-i18n="nav_projects"></a><a href="#journey" data-i18n="nav_journey"></a>
+      <a href="#contact" data-i18n="nav_contact"></a>
+    </nav>
+    <div class="tools">
+      <button id="lang" aria-label="Language">UZ</button>
+      <button id="theme" aria-label="Theme"><span class="sun">☀</span><span class="moon">☾</span></button>
+      <button id="burger" aria-label="Menu">☰</button>
+    </div>
+
+  </header>
+
+  <main id="top">
+    <section class="hero" id="hero">
+      <pre class="code-bg" aria-hidden="true"></pre>
+      <pre class="code-lit" aria-hidden="true"></pre>
+      <div class="hero-in">
+        <p class="hello" data-i18n="hello"></p>
+        <h1>Akobir<br>Abdulhakimov</h1>
+        <p class="role"><span id="typed"></span><i class="caret"></i></p>
+        <p class="lead" data-i18n="lead"></p>
+        <div class="cta"><a class="btn" href="#projects" data-i18n="cta_work"></a><a class="btn ghost" href="#contact"
+            data-i18n="cta_talk"></a></div>
+      </div>
+      <p class="hint" data-i18n="hint"></p>
+    </section>
+
+    <section id="about" class="sec about">
+      <div class="photo"><img src="images/profile.jpg" onerror="this.onerror=null;this.src='images/profile.svg'"
+          alt="Akobir Abdulhakimov"></div>
+      <div>
+        <h2 data-i18n="about_h"></h2>
+        <p data-i18n="about_p1"></p>
+        <p data-i18n="about_p2"></p>
+        <ul class="stats">
+          <li><b data-count="20">0</b><span data-i18n="st1"></span></li>
+          <li><b data-count="3">0</b><span data-i18n="st2"></span></li>
+          <li><b data-count="500">0</b><span data-i18n="st3"></span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="skills" class="sec">
+      <h2 data-i18n="skills_h"></h2>
+      <div class="skills">
+        <div>
+          <h3>Frontend</h3>
+          <p><em>HTML</em><em>CSS</em><em>JavaScript</em><em>React</em></p>
+        </div>
+        <div>
+          <h3>Backend</h3>
+          <p><em>Python</em><em>Node.js</em><em>SQL</em><em>REST API</em></p>
+        </div>
+        <div>
+          <h3>AI &amp; Security</h3>
+          <p><em>Machine Learning</em><em>Cybersecurity</em><em>Linux</em></p>
+        </div>
+        <div>
+          <h3>Tools</h3>
+          <p><em>Git</em><em>Docker</em><em>Figma</em><em>VS Code</em></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="sec">
+      <h2 data-i18n="proj_h"></h2>
+      <div class="filters">
+        <button class="on" data-f="all" data-i18n="f_all"></button><button data-f="web">Web</button>
+        <button data-f="ai">AI</button><button data-f="sec">Security</button>
+      </div>
+      <div class="grid">
+        <article class="card" data-c="web"><img src="images/project-1.png" alt="">
+          <div>
+            <h3 data-i18n="p1_t"></h3>
+            <p data-i18n="p1_d"></p><small>HTML · CSS · JS</small><a href="#" class="more" data-i18n="view"></a>
+          </div>
+        </article>
+        <article class="card" data-c="ai"><img src="images/project-2.png" alt="">
+          <div>
+            <h3 data-i18n="p2_t"></h3>
+            <p data-i18n="p2_d"></p><small>Python · ML</small><a href="#" class="more" data-i18n="view"></a>
+          </div>
+        </article>
+        <article class="card" data-c="sec"><img src="images/project-3.png" alt="">
+          <div>
+            <h3 data-i18n="p3_t"></h3>
+            <p data-i18n="p3_d"></p><small>Python · Linux</small><a href="#" class="more" data-i18n="view"></a>
+          </div>
+        </article>
+        <article class="card" data-c="web"><img src="images/project-4.png" alt="">
+          <div>
+            <h3 data-i18n="p4_t"></h3>
+            <p data-i18n="p4_d"></p><small>JavaScript · API</small><a href="#" class="more" data-i18n="view"></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="journey" class="sec">
+      <h2 data-i18n="jour_h"></h2>
+      <ol class="timeline">
+        <li><time>2026</time>
+          <div>
+            <h3 data-i18n="j1_t"></h3>
+            <p data-i18n="j1_d"></p>
+          </div>
+        </li>
+        <li><time>2025</time>
+          <div>
+            <h3 data-i18n="j2_t"></h3>
+            <p data-i18n="j2_d"></p>
+          </div>
+        </li>
+        <li><time>2024</time>
+          <div>
+            <h3 data-i18n="j3_t"></h3>
+            <p data-i18n="j3_d"></p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section id="contact" class="sec contact">
+      <h2 data-i18n="cont_h"></h2>
+      <p data-i18n="cont_p"></p>
+      <form id="form">
+        <input name="name" required data-i18n-ph="ph_name"><input name="email" type="email" required
+          data-i18n-ph="ph_mail">
+        <textarea name="message" rows="4" required data-i18n-ph="ph_msg"></textarea>
+        <input type="checkbox" name="botcheck" hidden tabindex="-1" autocomplete="off">
+        <button class="btn" data-i18n="send"></button>
+        <p id="status" role="status"></p>
+      </form>
+      <p class="social"><a data-s="email" hidden>Gmail</a><a data-s="github" target="_blank" rel="noopener"
+          hidden>GitHub</a><a data-s="telegram" target="_blank" rel="noopener" hidden>Telegram</a><a data-s="linkedin"
+          target="_blank" rel="noopener" hidden>LinkedIn</a></p>
+    </section>
+  </main>
+  <footer>© <span id="year"></span> Akobir Abdulhakimov</footer>
+  <script src="js/i18n.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
